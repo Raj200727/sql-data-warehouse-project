@@ -40,7 +40,6 @@ The Gold layer utilizes a **Star Schema** to provide fast query performance:
 │   ├── bronze/          # DDL and Load scripts for raw data
 │   ├── silver/          # Cleaning and transformation logic
 │   └── gold/            # Final Star Schema modeling
-├── tests/
-│   └── quality_checks.sql # Integrity and uniqueness validation
+|
 ├── docs/                # Architecture diagrams and blueprints
 └── README.md
